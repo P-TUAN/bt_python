@@ -41,7 +41,20 @@ def xuat():
 
 xuat()
 
+#bài tập 4
+
+def xuat():
+    t = int(input("Nhập số lượng các dòng: "))
+    if t > 0 and t <= 100:
+        for i in range(1, t + 1):
+            str_word = input("Nhập chữ: ")
+            print(str_word.replace("\t", " "))
+
+            
+xuat()
+
 #bài tập 6
+
 def xuat(s1, s2, s3):
     print(s1.replace(s2, s3))
 
