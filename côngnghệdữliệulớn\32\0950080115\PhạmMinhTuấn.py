@@ -1,3 +1,4 @@
+#09CNTT3_công nghệ dữ liệu lớn_32_0950080115_Phạm Minh Tuấn 
 #bài tập 1
 def xuat():
   t = int(input("Nhập: "))
