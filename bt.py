@@ -53,6 +53,32 @@ def xuat():
        
 xuat()
 
+#bài tập 7
+
+def xuat():
+    t = int(input("Nhập: "))
+    if 0 < t <= 100:
+        for i in range(1, t + 1):
+            nhap = input()
+            tucu = nhap.split()
+            tumoi = []
+            j = 0
+
+            for ii in range(len(tucu)):
+                if tucu[ii] not in tumoi:
+                    tumoi.insert(j, tucu[ii])
+                    j = j + 1
+
+            n = ""
+            for ii in range(len(tumoi)):
+                n = n + tumoi[ii] + " "
+
+            print(f"Test{i}: {n}")
+
+
+xuat()
+
+
 
           
           
