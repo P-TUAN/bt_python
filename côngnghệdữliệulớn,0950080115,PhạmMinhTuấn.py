@@ -93,6 +93,17 @@ def xuat():
 
 xuat()
 
+#bài 10
+
+def xuat():
+    t = int(input("Nhập: "))
+    if 0 < t <= 100:
+        for i in range(1, t + 1):
+            c = input()
+            print(f"Test{i}:\n", c.strip().title().replace("\t", " ").replace(".",". ").replace(" .",".").replace("!",".").replace("?","."))
+
+
+xuat()
 
 
           
