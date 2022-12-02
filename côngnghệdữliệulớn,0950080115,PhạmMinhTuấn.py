@@ -53,6 +53,23 @@ def xuat():
             
 xuat()
 
+#bài tập 5
+
+def xuat(s1, s2):
+   if s2 in s1:
+       print(s1.count(s2))
+   else:
+       print('Chuỗi "{}" không xuất hiện trong chuỗi "{}"'.format(s2, s1))
+
+
+t = int(input("Nhập: "))
+if 0 < t <= 100:
+    for i in range(t):
+        s1 = input("nhập 1: ")
+        s2 = input("nhập 2: ")
+        print(f"test {i + 1}:", end="\n")
+        xuat(s1, s2)
+        
 #bài tập 6
 
 def xuat(s1, s2, s3):
