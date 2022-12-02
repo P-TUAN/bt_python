@@ -42,16 +42,18 @@ def xuat():
 xuat()
 
 #bài tập 6
-def xuat():
-    t = int(input("Nhập: "))
-    if 0 < t <= 100:
-        for i in range(1, t + 1):
-            a = input()
-            print(f"Test{i}:" )
-            print(a.replace("TNMT","BBBB").replace("Relax","  ").replace("Sleeping","  "))
-           
-       
-xuat()
+def xuat(s1, s2, s3):
+    print(s1.replace(s2, s3))
+
+
+t = int(input("Nhập: "))
+if 0 < t <= 100:
+    for i in range(t):
+        s1 = input("Nhập chuỗi: ")
+        s2 = input("nhập từ cũ: ")
+        s3 = input("Nhập từ mới: ")
+        print(f"test {i + 1}:", end="\n")
+        xuat(s1, s2, s3)
 
 #bài tập 7
 
